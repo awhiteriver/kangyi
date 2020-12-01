@@ -3,6 +3,10 @@
       "path": "pages/news/index",
       "style": {}
     },
+	{
+	  "path": "pages/maps/chinaMap",
+	  "style": {}
+	},
     {
       "path": "pages/detail/detail",
       "style": {

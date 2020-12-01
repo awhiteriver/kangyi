@@ -26,6 +26,11 @@
         <!-- #endif -->
       </swiper-item>
     </swiper>
+	<view class="bottombar">
+		<router-link to='pages/maps/chinaMap' class="btn1"><button>疫情地图</button></router-link>
+		<view class="btn2">模块二</view>
+		<view class="btn3">模块三</view>
+	</view>
   </view>
 </template>
 
@@ -270,6 +275,20 @@
 </script>
 
 <style>
+	.bottombar{
+		width: 100vw;
+		height: 50px;
+		background-color: #007AFF;
+		display: flex;
+		flex-direction:row;
+		align-items: center;
+		justify-content: space-around;
+		.btn1,.btn2,.btn3{
+			flex:1;
+			
+		}
+	}
+	
   /* #ifndef APP-PLUS */
   page {
     width: 100%;
